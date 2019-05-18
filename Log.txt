@@ -1,0 +1,1264 @@
+Initiating legacy licensing module
+LICENSE SYSTEM [2019515 20:46:53] Next license update check is after 2019-05-17T02:35:48
+
+
+LICENSE SYSTEM [2019515 20:46:53] 00328-10000-00001-AA757 != 00328-10000-00001-AA776
+
+Built from '2018.3/staging' branch; Version is '2018.3.11f1 (5063218e4ab8) revision 5268257'; Using compiler version '191326128'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 15795 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Package Manager] Server::Start -- Port 50820 was selected
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Unity.exe
+-batchmode
+-buildWindowsPlayer
+./Builds/Build.exe
+-stackTraceLogType
+Full
+-logFile
+Log.txt
+C:/Users/Flameo326/Documents/Projects/Unity/VRTest
+Using Asset Import Pipeline V1.
+Initiating legacy licensing moduleLoading GUID <-> Path mappings...0.000092 seconds
+Loading Asset Database...0.019459 seconds
+Build target: OSXUniversal found and added!
+Build target: WindowsStoreApps found and added!
+Build target: Win64 found and added!
+Build target: Win found and added!
+Build target: LinuxUniversal found and added!
+Build target: Linux64 found and added!
+Build target: Linux found and added!
+Build target: iOS found and added!
+Build target: tvOS found and added!
+Build target: PS4 found and added!
+Build target: XboxOne found and added!
+Build target: Android found and added!
+Build target: WebGL found and added!
+Build target: Switch found and added!
+Build target: Lumin found and added!
+Build target: PSM found and added!
+Build target: PSP2 found and added!
+Build target: WiiU found and added!
+Build target: Web found and added!
+Build target: WebStreamed found and added!
+Build target: OSXIntel found and added!
+Build target: OSXIntel64 found and added!
+Build target: BlackBerry found and added!
+Build target: PS3 found and added!
+Build target: N3DS found and added!
+Build target: WP8 found and added!
+Build target: SamsungTV found and added!
+Build target: Tizen found and added!
+AssetDatabase consistency checks...0.029161 seconds
+Refreshing native plugins compatible for Editor in 41.56 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 6.61 ms.
+DisplayProgressbar: Unity Package Manager
+[Package Manager] Done resolving packages in 0.25s seconds
+[Package Manager] Registering 37 packages:
+[Package Manager]  * Package :  com.unity.ads@2.0.8
+    (location: C:\Users\Flameo326\Documents\Projects\Unity\VRTest\Library\PackageCache\com.unity.ads@2.0.8)
+[Package Manager]  * Package :  com.unity.analytics@3.2.2
+    (location: C:\Users\Flameo326\Documents\Projects\Unity\VRTest\Library\PackageCache\com.unity.analytics@3.2.2)
+[Package Manager]  * Package :  com.unity.collab-proxy@1.2.15
+    (location: C:\Users\Flameo326\Documents\Projects\Unity\VRTest\Library\PackageCache\com.unity.collab-proxy@1.2.15)
+[Package Manager]  * Package :  com.unity.package-manager-ui@2.0.7
+    (location: C:\Users\Flameo326\Documents\Projects\Unity\VRTest\Library\PackageCache\com.unity.package-manager-ui@2.0.7)
+[Package Manager]  * Package :  com.unity.purchasing@2.0.3
+    (location: C:\Users\Flameo326\Documents\Projects\Unity\VRTest\Library\PackageCache\com.unity.purchasing@2.0.3)
+[Package Manager]  * Package :  com.unity.textmeshpro@1.3.0
+    (location: C:\Users\Flameo326\Documents\Projects\Unity\VRTest\Library\PackageCache\com.unity.textmeshpro@1.3.0)
+[Package Manager]  * Package :  com.unity.xr.oculus.standalone@1.29.1
+    (location: C:\Users\Flameo326\Documents\Projects\Unity\VRTest\Library\PackageCache\com.unity.xr.oculus.standalone@1.29.1)
+[Package Manager]  * Package :  com.unity.modules.ai@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+[Package Manager]  * Package :  com.unity.modules.animation@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+[Package Manager]  * Package :  com.unity.modules.assetbundle@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+[Package Manager]  * Package :  com.unity.modules.audio@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+[Package Manager]  * Package :  com.unity.modules.cloth@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+[Package Manager]  * Package :  com.unity.modules.director@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+[Package Manager]  * Package :  com.unity.modules.imageconversion@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+[Package Manager]  * Package :  com.unity.modules.imgui@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+[Package Manager]  * Package :  com.unity.modules.jsonserialize@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+[Package Manager]  * Package :  com.unity.modules.particlesystem@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+[Package Manager]  * Package :  com.unity.modules.physics@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+[Package Manager]  * Package :  com.unity.modules.physics2d@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+[Package Manager]  * Package :  com.unity.modules.screencapture@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+[Package Manager]  * Package :  com.unity.modules.terrain@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+[Package Manager]  * Package :  com.unity.modules.terrainphysics@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+[Package Manager]  * Package :  com.unity.modules.tilemap@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+[Package Manager]  * Package :  com.unity.modules.ui@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+[Package Manager]  * Package :  com.unity.modules.uielements@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+[Package Manager]  * Package :  com.unity.modules.umbra@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+[Package Manager]  * Package :  com.unity.modules.unityanalytics@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequest@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestassetbundle@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestaudio@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequesttexture@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+[Package Manager]  * Package :  com.unity.modules.unitywebrequestwww@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+[Package Manager]  * Package :  com.unity.modules.vehicles@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+[Package Manager]  * Package :  com.unity.modules.video@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+[Package Manager]  * Package :  com.unity.modules.vr@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+[Package Manager]  * Package :  com.unity.modules.wind@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+[Package Manager]  * Package :  com.unity.modules.xr@1.0.0
+    (location: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+[Package Manager] Done registering packages in 0.01s seconds
+Initialize engine version: 2018.3.11f1 (5063218e4ab8)
+GfxDevice: creating device client; threaded=0
+Refreshing native plugins compatible for Editor in 0.70 ms, found 7 plugins.
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro M500M (ID=0x137a)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   25.21.14.1678
+[EnlightenBakeManager] m_Clear = false;
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56792
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.11 for Unity v2018.3.11f1
+Registering precompiled unity dll's ...
+Register platform support module: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\PlaybackEngines\MetroSupport/UnityEditor.WSA.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Hub\Editor\2018.3.11f1\Editor\Data\PlaybackEngines\MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003715 seconds.
+Registering platform support modules:
+Registered platform support modules in: 0.1169302s.
+Native extension for Android target not found
+Native extension for Metro target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 2.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.778 seconds
+Registering precompiled user dll's ...
+Registered in 0.068938 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.11 for Unity v2018.3.11f1
+Registering platform support modules:
+Registered platform support modules in: 0.0641841s.
+Native extension for Android target not found
+Native extension for Metro target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Platform modules already initialized, skipping
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Oculus.VR.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 90 milliseconds
+Pass: 1 took 18 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 70 milliseconds
+Pass: 1 took 11 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Oculus.VR.dll
+Symbols will be read from Temp\Oculus.VR.pdb
+Script Module: Oculus.VR.dll
+Pass: 0 took 101 milliseconds
+Pass: 1 took 15 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Starting compile Library/ScriptAssemblies/Oculus.VR.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Oculus.VR.Editor.dll
+- Starting compile Library/ScriptAssemblies/Oculus.VR.Scripts.Editor.dll
+- Finished compile Library/ScriptAssemblies/Oculus.VR.Scripts.Editor.dll
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.11 for Unity v2018.3.11f1
+Registering platform support modules:
+Registered platform support modules in: 0.0556518s.
+Native extension for Android target not found
+Native extension for Metro target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.218 seconds
+Platform modules already initialized, skipping
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp\Assembly-CSharp.pdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 69 milliseconds
+Pass: 1 took 40 milliseconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs(26,20): warning CS0649: Field 'GrabbableCrosshair.m_enabledCrosshair' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs Line: 26)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs(73,20): warning CS0649: Field 'DistanceGrabber.m_player' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs Line: 73)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(33,25): warning CS0649: Field 'DebugUIBuilder.buttonPrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 33)
+
+Assets\Oculus\SampleFramework\Core\TouchControllers\TouchController.cs(14,37): warning CS0649: Field 'TouchController.m_controller' is never assigned to, and will always have its default value 
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\TouchControllers\TouchController.cs Line: 14)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs(70,13): warning CS0649: Field 'DistanceGrabber.m_obstructionLayer' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs Line: 70)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(46,22): warning CS0649: Field 'DebugUIBuilder.uiHelpersToInstantiate' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 46)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(57,28): warning CS0649: Field 'DebugUIBuilder.toEnable' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 57)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(39,25): warning CS0649: Field 'DebugUIBuilder.dividerPrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 39)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(59,28): warning CS0649: Field 'DebugUIBuilder.toDisable' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 59)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs(68,13): warning CS0649: Field 'DistanceGrabber.m_grabObjectsInLayer' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs Line: 68)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs(33,15): warning CS0649: Field 'DistanceGrabber.m_spherecastRadius' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs Line: 33)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(49,23): warning CS0649: Field 'DebugUIBuilder.targetContentPanels' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 49)
+
+Assets\Oculus\SampleFramework\Usage\DistanceGrab\Scripts\DistanceGrabberSample.cs(51,27): warning CS0649: Field 'DistanceGrabberSample.m_grabbers' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Usage\DistanceGrab\Scripts\DistanceGrabberSample.cs Line: 51)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs(24,20): warning CS0649: Field 'GrabbableCrosshair.m_targetedCrosshair' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs Line: 24)
+
+Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs(36,37): warning CS0649: Field 'Hand.m_controller' is never assigned to, and will always have its default value 
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs Line: 36)
+
+Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs(40,26): warning CS0649: Field 'Hand.m_defaultGrabPose' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs Line: 40)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(41,25): warning CS0649: Field 'DebugUIBuilder.togglePrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 41)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(37,25): warning CS0649: Field 'DebugUIBuilder.sliderPrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 37)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(35,25): warning CS0649: Field 'DebugUIBuilder.labelPrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 35)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(43,25): warning CS0649: Field 'DebugUIBuilder.radioPrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 43)
+
+Assets\Oculus\Platform\Editor\OculusPlatformSettingsEditor.cs(16,13): warning CS0618: 'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'
+ 
+(Filename: Assets\Oculus\Platform\Editor\OculusPlatformSettingsEditor.cs Line: 16)
+
+Assets\Oculus\Platform\Editor\OculusPlatformSettingsEditor.cs(133,43): warning CS0618: 'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'
+ 
+(Filename: Assets\Oculus\Platform\Editor\OculusPlatformSettingsEditor.cs Line: 133)
+
+Assets\Oculus\Spatializer\editor\ONSPPropagationSerializationManager.cs(42,9): warning CS0618: 'EditorApplication.playmodeStateChanged' is obsolete: 'Use EditorApplication.playModeStateChanged and/or EditorApplication.pauseStateChanged'
+ 
+(Filename: Assets\Oculus\Spatializer\editor\ONSPPropagationSerializationManager.cs Line: 42)
+
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2018.3.11 for Unity v2018.3.11f1
+Registering platform support modules:
+Registered platform support modules in: 0.0509147s.
+Native extension for Android target not found
+Native extension for Metro target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.32 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.456 seconds
+Platform modules already initialized, skipping
+Validating Project structure ... 0.023595 seconds.
+Refresh: detecting if any assets need to be imported or removed ...
+
+Refresh Completed time: 0.032534s
+	Asset Scan time: 0.030445s
+	Asset Hashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Scripting) time: 0.000000s (count: 0)
+	Post Processs Assets (Scripting) time: 0.000000s
+	Asset Rehashing: 0.000000s [0 B, 0.000000 mb/s]
+	Asset Import (Non Scripting) time: 0.000000s (count: 0)
+	Post Process Assets (Non Scripting) time: 0.000000s
+	Dependent Assets to Import Queue time: 0.000000s
+
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+Warming cache for 1861 main assets: 0.005630 seconds elapsed
+Initializing Unity extensions:
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ 'C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+Unloading 793 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.0 MB.
+System memory in use after: 147.6 MB.
+
+Unloading 365 unused Assets to reduce memory usage. Loaded Objects now: 1382.
+Total: 4.364029 ms (FindLiveObjects: 0.425937 ms CreateObjectMapping: 0.120706 ms MarkObjects: 2.462265 ms  DeleteObjects: 1.354391 ms)
+
+DisplayProgressbar: Remote
+building x86 windows player!
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'Flip_RGBARect_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAExternal_To_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Script Compilation Pipeline Post Process Assets time: 0.000650s
+Assembly Updater Post Process Assets time: 0.000158s
+Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
+ done. [Time: 71.613538 ms] 
+Script Compilation Pipeline Post Process Assets time: 0.000018s
+Assembly Updater Post Process Assets time: 0.000149s
+Refreshing native plugins compatible for Editor in 1.22 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.35 ms.
+BuildPlayer: start building target 5
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Oculus.VR.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 128 milliseconds
+Pass: 1 took 10 milliseconds
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 49 milliseconds
+Pass: 1 took 11 milliseconds
+- Finished compile Library/ScriptAssemblies/Oculus.VR.dll
+Symbols will be read from Temp\Oculus.VR.pdb
+Script Module: Oculus.VR.dll
+Pass: 0 took 47 milliseconds
+Pass: 1 took 7 milliseconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp\Assembly-CSharp.pdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 59 milliseconds
+Pass: 1 took 75 milliseconds
+Assets\Scripts\Ball.cs(8,26): warning CS0109: The member 'Ball.rigidbody' does not hide an accessible member. The new keyword is not required.
+ 
+(Filename: Assets\Scripts\Ball.cs Line: 8)
+
+Assets\Scripts\Ball.cs(9,25): warning CS0109: The member 'Ball.collider' does not hide an accessible member. The new keyword is not required.
+ 
+(Filename: Assets\Scripts\Ball.cs Line: 9)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(33,25): warning CS0649: Field 'DebugUIBuilder.buttonPrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 33)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs(33,15): warning CS0649: Field 'DistanceGrabber.m_spherecastRadius' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs Line: 33)
+
+Assets\Oculus\SampleFramework\Core\TouchControllers\TouchController.cs(14,37): warning CS0649: Field 'TouchController.m_controller' is never assigned to, and will always have its default value 
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\TouchControllers\TouchController.cs Line: 14)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(41,25): warning CS0649: Field 'DebugUIBuilder.togglePrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 41)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(35,25): warning CS0649: Field 'DebugUIBuilder.labelPrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 35)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(49,23): warning CS0649: Field 'DebugUIBuilder.targetContentPanels' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 49)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(39,25): warning CS0649: Field 'DebugUIBuilder.dividerPrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 39)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs(24,20): warning CS0649: Field 'GrabbableCrosshair.m_targetedCrosshair' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs Line: 24)
+
+Assets\Oculus\SampleFramework\Usage\DistanceGrab\Scripts\DistanceGrabberSample.cs(51,27): warning CS0649: Field 'DistanceGrabberSample.m_grabbers' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Usage\DistanceGrab\Scripts\DistanceGrabberSample.cs Line: 51)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(46,22): warning CS0649: Field 'DebugUIBuilder.uiHelpersToInstantiate' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 46)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs(70,13): warning CS0649: Field 'DistanceGrabber.m_obstructionLayer' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs Line: 70)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(57,28): warning CS0649: Field 'DebugUIBuilder.toEnable' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 57)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(43,25): warning CS0649: Field 'DebugUIBuilder.radioPrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 43)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs(26,20): warning CS0649: Field 'GrabbableCrosshair.m_enabledCrosshair' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs Line: 26)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs(68,13): warning CS0649: Field 'DistanceGrabber.m_grabObjectsInLayer' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs Line: 68)
+
+Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs(36,37): warning CS0649: Field 'Hand.m_controller' is never assigned to, and will always have its default value 
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs Line: 36)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs(73,20): warning CS0649: Field 'DistanceGrabber.m_player' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs Line: 73)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(59,28): warning CS0649: Field 'DebugUIBuilder.toDisable' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 59)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(37,25): warning CS0649: Field 'DebugUIBuilder.sliderPrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 37)
+
+Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs(40,26): warning CS0649: Field 'Hand.m_defaultGrabPose' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs Line: 40)
+
+DisplayProgressbar: Building Player
+Opening scene 'Assets/Oculus/VR/Scenes/GearVrControllerTest.unity'
+Load scene 'Assets/Oculus/VR/Scenes/GearVrControllerTest.unity' time: 0.026621 ms 
+LightmapEditorSettings: switching bake backend from 1 to 0.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.8 MB.
+System memory in use after: 138.6 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 2039.
+Total: 16.618098 ms (FindLiveObjects: 0.544820 ms CreateObjectMapping: 0.056159 ms MarkObjects: 15.693655 ms  DeleteObjects: 0.322370 ms)
+
+Created GICache directory at C:/Users/Flameo326/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.031s, timestamps: [26.807 - 26.837]
+[00:00:00] Enlighten: Precompute started.
+[PathTracer] Issuing atlassing job. Atlas hash: bc06a9703e5ae257241f86e6e5e9cb62, width: 1024, height: 1024
+[00:00:00] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+[PathTracer] Integrated atlassing. Atlas hash: bc06a9703e5ae257241f86e6e5e9cb62 -> Atlas count: 0 -> Instance count: 0 -> Estimated texel count: 0.000M.
+[00:00:00] Enlighten: Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+[00:00:00] Enlighten: Precompute took 0.021946 seconds.
+Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
+[00:00:00] Enlighten: Bake started.
+[PathTracer][LP] Issuing deduplication and tetrahedralization job. Combined: 80257199cfa681a16be5e09b3c2208f4, tetrahedralized probes: 00000000000000000000000000000000, non-tetrahedralized probes: 00000000000000000000000000000000, dependencies: 00000000000000000000000000000000
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 33c4 -> priority: 1 
+  Thread -> id: 4f44 -> priority: 1 
+[00:00:00] Enlighten: Finished 1 Bake Runtime job (0.10s execute, 0.00s integrate, 0.14s wallclock)
+[00:00:00] Enlighten: Bake took 0.144919 seconds.
+[PathTracer][LP] Integrating deduplicated and tetrahedralized probes for hash 80257199cfa681a16be5e09b3c2208f4.
+[PathTracer] Common reset.
+[PathTracer] Lightmap reset.
+[PathTracer][LP] Light probes reset.
+[PathTracer][CB] Custom bakes reset.
+[PathTracer] building lightmap data asset.
+[PathTracer] m_Clear = false;
+gi::BakeBackendSwitch: Clear() active clients.
+[EnlightenBakeManager] m_Clear = false;
+[PathTracer] building lightmap data asset.
+[PathTracer] m_Clear = false;
+gi::BakeBackendSwitch: switching bake backend from 3 to 0.
+[00:00:00] Enlighten: Bake started.
+[PathTracer] building lightmap data asset.
+[00:00:00] Enlighten: Finished 1 Bake Runtime job (0.08s execute, 0.00s integrate, 0.08s wallclock)
+[00:00:00] Enlighten: Bake took 0.080594 seconds.
+[00:00:00] Enlighten: Reflection Probes started.
+[00:00:00] Enlighten: Finished 1 Bake Ambient Probe job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+[00:00:00] Enlighten: Finished 1 Reflection System job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+[00:00:00] Enlighten: LightingDataAsset started.
+> Collecting Enlighten data
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+
+
+Mono dependencies included in the build
+Dependency assembly - System.Diagnostics.StackTrace.dll
+Dependency assembly - System.Globalization.Extensions.dll
+Dependency assembly - System.Runtime.Serialization.Xml.dll
+Dependency assembly - System.Xml.XPath.XDocument.dll
+Dependency assembly - netstandard.dll
+Dependency assembly - Mono.Security.dll
+Dependency assembly - System.ComponentModel.Composition.dll
+Dependency assembly - System.Configuration.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.Data.dll
+Dependency assembly - System.Drawing.dll
+Dependency assembly - System.EnterpriseServices.dll
+Dependency assembly - System.IO.Compression.FileSystem.dll
+Dependency assembly - System.IO.Compression.dll
+Dependency assembly - System.Net.Http.dll
+Dependency assembly - System.Numerics.dll
+Dependency assembly - System.Runtime.Serialization.dll
+Dependency assembly - System.ServiceModel.Internals.dll
+Dependency assembly - System.Transactions.dll
+Dependency assembly - System.Xml.Linq.dll
+Dependency assembly - System.Xml.dll
+Dependency assembly - System.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - UnityEngine.Networking.dll
+Dependency assembly - UnityEngine.Timeline.dll
+Dependency assembly - UnityEngine.SpatialTracking.dll
+Dependency assembly - Assembly-CSharp.dll
+Dependency assembly - Oculus.VR.dll
+Dependency assembly - Unity.Analytics.DataPrivacy.dll
+Dependency assembly - Unity.TextMeshPro.dll
+Dependency assembly - Unity.Analytics.StandardEvents.dll
+Dependency assembly - Unity.Analytics.Tracker.dll
+
+Unloading 96 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.6 MB.
+System memory in use after: 143.0 MB.
+
+Unloading 336 unused Assets to reduce memory usage. Loaded Objects now: 1409.
+Total: 22.077966 ms (FindLiveObjects: 0.440159 ms CreateObjectMapping: 0.044855 ms MarkObjects: 17.042212 ms  DeleteObjects: 4.550011 ms)
+
+[EnlightenBakeManager] m_Clear = false;
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.2 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1420.
+Total: 21.553568 ms (FindLiveObjects: 0.411350 ms CreateObjectMapping: 0.040843 ms MarkObjects: 21.090435 ms  DeleteObjects: 0.010211 ms)
+
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.6 MB.
+System memory in use after: 139.5 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 1408.
+Total: 20.503313 ms (FindLiveObjects: 0.525128 ms CreateObjectMapping: 0.058712 ms MarkObjects: 18.656614 ms  DeleteObjects: 1.260671 ms)
+
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+DisplayProgressbar: Compiling shader variants
+Compressed shader 'OvrAvatar/AvatarSurfaceShaderSelfOccluding' on d3d11 from 5.70MB to 0.37MB
+Compressed shader 'OvrAvatar/AvatarSurfaceShader' on d3d11 from 5.70MB to 0.37MB
+DisplayProgressbar: Building Player
+Compressed shader 'Standard' on d3d11 from 1.01MB to 0.08MB
+
+-------------------------------------------------------------------------------
+Build Report
+Uncompressed usage by category (Percentages based on user generated assets only):
+Textures               14.0 mb	 42.1% 
+Meshes                 2.1 mb	 6.3% 
+Animations             0.0 kb	 0.0% 
+Sounds                 0.0 kb	 0.0% 
+Shaders                2.0 mb	 5.9% 
+Other Assets           15.1 kb	 0.0% 
+Levels                 42.6 kb	 0.1% 
+Scripts                1.9 mb	 5.7% 
+Included DLLs          13.2 mb	 39.4% 
+File headers           148.0 kb	 0.4% 
+Total User Assets      33.4 mb	 100.0% 
+Complete build size    63.8 mb
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 5.3 mb	 8.4% Assets/Oculus/VR/Textures/OculusTouchForQuestAndRiftS/OculusQuestTouchControllerTexture.tga
+ 5.3 mb	 8.4% Assets/Oculus/VR/Textures/OculusTouchForRift/touchController_albedo.png
+ 1.3 mb	 2.1% Assets/Oculus/VR/Textures/OculusGoController/OculusGoController_albedo.tga
+ 1.3 mb	 2.1% Assets/Models/Racket_Texture.png
+ 748.1 kb	 1.1% Assets/Oculus/VR/Meshes/OculusTouchForRift/right_touch_controller_model_skel.fbx
+ 741.9 kb	 1.1% Assets/Oculus/VR/Meshes/OculusTouchForRift/left_touch_controller_model_skel.fbx
+ 698.6 kb	 1.1% Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShader.shader
+ 698.4 kb	 1.1% Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderSelfOccluding.shader
+ 682.8 kb	 1.0% Assets/Oculus/VR/Textures/cube_texture.png
+ 306.4 kb	 0.5% Resources/unity_builtin_extra
+ 235.0 kb	 0.4% Assets/Oculus/VR/Meshes/GearVrController/GearVrController.fbx
+ 133.7 kb	 0.2% Assets/Models/Racket.obj
+ 97.7 kb	 0.1% Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Right.fbx
+ 97.7 kb	 0.1% Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Left.fbx
+ 91.1 kb	 0.1% Assets/Oculus/VR/Meshes/OculusGoController/OculusGoController.fbx
+ 62.1 kb	 0.1% Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_PC_SingleComponentExpressive.shader
+ 50.0 kb	 0.1% Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_PC_SingleComponent.shader
+ 43.0 kb	 0.1% Assets/Oculus/VR/Resources/Underlay Impostor.shader
+ 41.9 kb	 0.1% Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBSV2.shader
+ 33.7 kb	 0.1% Assets/Oculus/VR/Resources/Underlay Transparent Occluder.shader
+ 21.5 kb	 0.0% Assets/Oculus/VR/Textures/GearVrController/GearVrController_normal_128.tif
+ 21.3 kb	 0.0% Assets/Oculus/VR/Resources/OVRMRCameraFrameLit.shader
+ 10.8 kb	 0.0% Assets/Oculus/VR/Textures/GearVrController/GearVrController_color_128.tif
+ 10.8 kb	 0.0% Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBS.shader
+ 10.8 kb	 0.0% Assets/Oculus/VR/Textures/GearVrController/GearVrController_ao_128.tif
+ 8.4 kb	 0.0% Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_CombinedMeshExpressive.shader
+ 8.4 kb	 0.0% Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_SingleComponentExpressive.shader
+ 7.6 kb	 0.0% Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_CombinedMesh.shader
+ 7.6 kb	 0.0% Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_SingleComponent.shader
+ 5.1 kb	 0.0% Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_Loader.shader
+ 5.0 kb	 0.0% Assets/Oculus/VR/Resources/OVRMRCameraFrame.shader
+ 4.6 kb	 0.0% Assets/Oculus/Avatar/Resources/Materials/Expressive/AvatarEyeLens.shader
+ 4.1 kb	 0.0% Assets/Oculus/VR/Resources/Cubemap Blit.shader
+ 4.1 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+ 4.1 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
+ 3.8 kb	 0.0% Assets/Oculus/VR/Resources/Texture2D Blit.shader
+ 3.7 kb	 0.0% Assets/Oculus/SampleFramework/Usage/Stereo180Video/Resources/Multiview Stereo.shader
+ 3.3 kb	 0.0% Assets/Oculus/VR/Resources/OVRMRUnlitTransparent.shader
+ 3.1 kb	 0.0% Assets/Oculus/VR/Resources/Unlit Transparent Color.shader
+ 3.1 kb	 0.0% Assets/Oculus/VR/Resources/OVRMRClipPlane.shader
+ 3.0 kb	 0.0% Assets/Oculus/VR/Resources/OVRMRUnlit.shader
+ 1.7 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+ 1.7 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll
+ 1.5 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
+ 1.5 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll
+ 0.9 kb	 0.0% Assets/Models/Racket Material.mat
+ 0.9 kb	 0.0% Assets/Oculus/VR/Meshes/OculusGoController/Materials/OculusGoControllerMat.mat
+ 0.9 kb	 0.0% Assets/Oculus/VR/Materials/GearVrController/GearVrControllerMat_128.mat
+ 0.9 kb	 0.0% Assets/Oculus/VR/Meshes/OculusTouchForRift/Materials/OculusTouchForRift_Material.mat
+ 0.8 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll
+ 0.6 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll
+ 0.6 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll
+ 0.5 kb	 0.0% Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/Materials/OculusTouchForQuestAndRiftS_Material.mat
+ 0.4 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll
+ 0.4 kb	 0.0% C:/Program Files/Unity/Hub/Editor/2018.3.11f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll
+ 0.3 kb	 0.0% Packages/com.unity.analytics/Unity.Analytics.Tracker.dll
+ 0.3 kb	 0.0% Packages/com.unity.ads/UnityEngine.Advertisements.dll
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/MatchmakingAdminSnapshotCandidate.cs
+ 0.1 kb	 0.0% Packages/com.unity.analytics/Unity.Analytics.Editor.dll
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/MatchmakingEnqueueResultAndRoom.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/LivestreamingApplicationStatus.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/LaunchFriendRequestFlowResult.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/AssetFileDownloadCancelResult.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/CloudStorageUpdateResponse.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/CloudStorageConflictMetadata.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSV2Component.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSComponent.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/PackageResourceImporterWindow.cs
+ 0.1 kb	 0.0% Packages/com.unity.analytics/DataPrivacy/DataPrivacyButton.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Materials/CubeMaterial.mat
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrBoardGame/Scripts/MatchmakingManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Usage/DistanceGrab/Scripts/DistanceGrabberSample.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportOrientationHandlerThumbstick.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/StandalonePlatformSettings.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/RoomInviteNotification.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/PartyUpdateNotification.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/MatchmakingEnqueuedUser.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/MatchmakingEnqueueResult.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/MatchmakingBrowseResult.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/MatchmakingAdminSnapshot.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/LivestreamingVideoStats.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/LivestreamingStartResult.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/LaunchUnblockFlowResult.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/LaunchReportFlowResult.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/LaunchBlockFlowResult.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/CalApplicationSuggestion.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/CalApplicationProposed.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/CalApplicationFinalized.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/AssetFileDownloadUpdate.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/AssetFileDownloadResult.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/AssetFileDeleteResult.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/AchievementDefinition.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/MatchmakingManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/LeaderboardManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/Camera2DController.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/AchievementsManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/EntitlementCheck/EntitlementCheck.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderComponent.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarProjectorRenderComponent.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_ScrollbarEventHandler.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrVoiceChat/Scripts/VREyeRaycaster.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrVoiceChat/Scripts/PlatformManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrBoardGame/Scripts/PlatformManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrBoardGame/Scripts/GameController.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrBoardGame/Scripts/BoardPosition.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/SimplePlatformSample/DataEntry.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTargetHandlerPhysical.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportOrientationHandlerHMD.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportOrientationHandler360.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportInputHandlerAvatarTouch.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/GrabbableCrosshair.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/DistanceGrabbable.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/VoipAudioSourceHiLevel.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/PlatformInitialize.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/LivestreamingStatus.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/InstalledApplication.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/HttpTransferUpdate.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/CloudStorageMetadata.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/ApplicationVersion.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/AchievementUpdate.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/AchievementProgress.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/AbuseReportRecording.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/MatchmakingCriterionImportance.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/LivestreamingMicrophoneStatus.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/VREyeRaycaster.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/PlatformManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/P2PNetworkGoal.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/P2PNetworkBall.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/MatchController.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMPro_ExtensionMethods.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/MaterialReferenceManager.cs
+ 0.1 kb	 0.0% Packages/com.unity.analytics/Tests/Runtime/DataPrivacy/JsonSerialization.cs
+ 0.1 kb	 0.0% Packages/com.unity.analytics/DataPrivacy/DataPrivacy.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRPointerEventData.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRPhysicsRaycaster.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRMixedRealityCaptureSettings.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrVoiceChat/Scripts/VoipManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrVoiceChat/Scripts/RoomManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrVoiceChat/Scripts/P2PManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrBoardGame/Scripts/IAPManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrBoardGame/Scripts/GamePiece.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrBoardGame/Scripts/GameBoard.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrBoardGame/Scripts/EyeCamera.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Usage/OVROverlay/Scripts/OVROverlaySample.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTransitionInstant.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTargetHandlerNode.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTargetHandlerNavMesh.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportOrientationHandler.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimHandlerParabolic.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/CharacterCameraConstraint.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/PauseOnInputLoss.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/DistanceGrabber.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/ColorGrabbable.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/VoipPCMSourceNative.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/StandalonePlatform.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/SystemVoipState.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/SystemPermission.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/ShareMediaResult.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/NetworkingPeer.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/MatchmakingStats.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/LinkedAccount.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/LeaderboardEntry.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/LaunchDetails.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/LanguagePackInfo.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/CloudStorageData.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/MatchmakingOptions.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/ApplicationOptions.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/AbuseReportOptions.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/RemotePlayer.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/PlayerArea.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/P2PManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/LocalPlayer.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/GoalMover.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/DetectBasket.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/BallEjector.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/NetChat/DataEntry.cs
+ 0.1 kb	 0.0% Assets/Oculus/LipSync/Scripts/OVRLipSyncContextTextureFlip.cs
+ 0.1 kb	 0.0% Assets/Oculus/LipSync/Scripts/OVRLipSyncContextMorphTarget.cs
+ 0.1 kb	 0.0% Assets/Oculus/LipSync/Scenes/Scripts/LipSyncDemo_SetCurrentTarget.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarTextureCopyManager.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMPro_ShaderUtilities.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMPro_EventManager.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_UpdateManager.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_TextUtilities.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_SpriteAnimator.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_SelectionCaret.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_MaterialManager.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_InputValidator.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_DefaultControls.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_Compatibility.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_ColorGradient.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRInputModule.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Tests/Runtime/TMP_RuntimeTests.cs
+ 0.1 kb	 0.0% Assets/Oculus/Spatializer/scripts/OculusSpatializerUnity.cs
+ 0.1 kb	 0.0% Assets/Oculus/Spatializer/scripts/ONSPPropagationSettings.cs
+ 0.1 kb	 0.0% Assets/Oculus/Spatializer/scripts/ONSPPropagationMaterial.cs
+ 0.1 kb	 0.0% Assets/Oculus/Spatializer/scripts/ONSPPropagationInterface.cs
+ 0.1 kb	 0.0% Assets/Oculus/Spatializer/scripts/ONSPPropagationGeometry.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Usage/Stereo180Video/Scripts/OVROverlayMeshGenerator.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Usage/Locomotion/Scripts/LocomotionSampleSupport.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/TouchControllers/TouchController.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTransitionWarp.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTransitionBlink.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTargetHandler.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportInputHandlerHMD.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimVisualLaser.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimHandlerLaser.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/GuardianBoundarySystem/GuardianBoundaryEnforcer.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/GuardianBoundarySystem/GuardianBoundaryDisplay.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/GrabManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/WindowsPlatform.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/RoomMembershipLockStatus.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/PlatformSettings.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/PlatformInternal.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/PlatformInitializeResult.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/PermissionGrantStatus.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/UserReportID.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/UserProof.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/UserAndRoom.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/SdkAccount.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/PingResult.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/OrgScopedID.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/AssetDetails.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/MicrophoneInputNative.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/MatchmakingStatApproach.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/LivestreamingStartStatus.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/LivestreamingAudience.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/LeaderboardFilterType.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/CloudStorageUpdateStatus.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/CloudStorageDataStatus.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/CallbackRunner.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/AndroidPlatform.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/Player.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/FlyText.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Scripts/AIPlayer.cs
+ 0.1 kb	 0.0% Assets/Oculus/LipSync/Scripts/OVRLipSyncContextCanned.cs
+ 0.1 kb	 0.0% Assets/Oculus/LipSync/Scripts/OVRLipSyncContextBase.cs
+ 0.1 kb	 0.0% Assets/Oculus/LipSync/Scripts/Helpers/OVRNamedArrayAttribute.cs
+ 0.1 kb	 0.0% Assets/Oculus/LipSync/Scripts/Helpers/OVRLipSyncDebugConsole.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarTouchController.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarSettingsEditor.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarRenderComponent.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarRemoteDriver.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarMeshInstance.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarMaterialManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarAssetTexture.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/SocialPlatformManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Samples/RemoteLoopback/Scripts/RemoteLoopbackManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/AudioManager/Scripts/Utils/InspectorNoteAttribute.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TextContainer.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMPro_UGUI_Private.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMPro_MeshUtilities.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMPro_FontUtilities.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_UpdateRegistery.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_TextElement.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_SubMeshUI.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_StyleSheet.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_SpriteAsset.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_InputField.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_CoroutineTween.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRSceneSampleController.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRGearVrControllerTest.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRChromaticAberration.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVROnCompleteListener.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRDebugHeadController.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Composition/OVRSandwichComposition.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Composition/OVRExternalComposition.cs
+ 0.1 kb	 0.0% Assets/Oculus/VoiceMod/Scripts/OVRVoiceModContext.cs
+ 0.1 kb	 0.0% Assets/Oculus/VoiceMod/Scenes/Scripts/VoiceModEnableSwitch.cs
+ 0.1 kb	 0.0% Assets/Oculus/VoiceMod/Scenes/Scripts/VoiceModDemo_Logic.cs
+ 0.1 kb	 0.0% Assets/Oculus/Spatializer/scripts/helpers/ONSPReflectionZone.cs
+ 0.1 kb	 0.0% Assets/Oculus/Spatializer/scripts/ONSPAmbisonicsNative.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Usage/Stereo180Video/Scripts/MoviePlayerSample.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Usage/Stereo180Video/Plugins/Android/NativeVideoPlayer.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTransition.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportInputHandler.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportDestination.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimHandler.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionTeleport.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionController.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/GuardianBoundarySystem/BoundsLockedObject.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/HandedInputSelector.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/VoipOptions.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/UserPresenceStatus.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/UserOptions.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/RoomOptions.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/PeerConnectionState.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/PartyUpdateAction.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/Purchase.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/Product.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/PartyID.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/Party.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/Error.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/DeserializeableList.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/LeaderboardStartAt.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/BufferedAudioStream.cs
+ 0.1 kb	 0.0% Assets/Oculus/LipSync/Scripts/OVRLipSyncSequence.cs
+ 0.1 kb	 0.0% Assets/Oculus/LipSync/Scripts/OVRLipSyncMicInput.cs
+ 0.1 kb	 0.0% Assets/Oculus/LipSync/Scripts/OVRLipSyncContext.cs
+ 0.1 kb	 0.0% Assets/Oculus/LipSync/Scenes/Scripts/LipSyncDemo_Control.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarSettings.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarSDKManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarLocalDriver.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarAssetMesh.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Samples/LocalAvatar/Scripts/GazeTargetSpawner.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Samples/AvatarGallery/Scripts/OvrAvatarTestDriver.cs
+ 0.1 kb	 0.0% Assets/Oculus/AudioManager/Scripts/Audio/AudioManager_Sound.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshPro.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMPro_Private.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_XmlTagStack.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_TextInfo.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_SubMesh.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_Style.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_Sprite.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_Settings.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_ObjectPool.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_Dropdown.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_Asset.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/FastAction.cs
+ 0.1 kb	 0.0% Packages/com.unity.analytics/DataPrivacy/AssemblyInfo.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRSystemPerfMetrics.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRResetOrientation.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRProgressIndicator.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRPlayerController.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRCubemapCapture.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRControllerHelper.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRLayerAttribute.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRHeadsetEmulator.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Composition/OVRDirectComposition.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Composition/OVRCompositionUtil.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Composition/OVRCameraComposition.cs
+ 0.1 kb	 0.0% Assets/Oculus/AudioManager/Scripts/Audio/MinMaxAttribute.cs
+ 0.1 kb	 0.0% Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs
+ 0.1 kb	 0.0% Assets/Oculus/VoiceMod/Scripts/Helpers/OVRDebugConsole.cs
+ 0.1 kb	 0.0% Assets/Oculus/Spatializer/scripts/ONSPAudioSource.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Usage/Locomotion/Scripts/CharacterCapsule.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Usage/DebugUI/DebugUISample.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportSupport.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportPoint.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/DebugUIBuilder.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/HandPose.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/VoipSampleRate.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/VoipMuteState.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/VoipAudioSource.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/SystemVoipStatus.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/ShareMediaStatus.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/ServiceProvider.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/SdkAccountType.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/RoomJoinability.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/RoomJoinPolicy.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Request.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/PermissionType.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Packet.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/User.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/Room.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Models/Pid.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/MicrophoneInput.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Message.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/MediaContentType.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/KeyValuePairType.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/IVoipPCMSource.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Callback.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/AchievementType.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/AbuseReportType.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarSDKCAPI.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarPacket.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarLogger.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarHand.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarDriver.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarBody.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarBase.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatarAsset.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Samples/GripPoses/Scripts/PoseEditHelper.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_Text.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_MeshInfo.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_ListPool.cs
+ 0.1 kb	 0.0% Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_LineInfo.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/ThirdParty/SimpleJSONUnity.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRWaitCursor.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRScreenFade.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRMonoscopic.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRGazePointer.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRPlatformMenu.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRMixedReality.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRHapticsClip.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Composition/OVRComposition.cs
+ 0.1 kb	 0.0% Assets/Oculus/AudioManager/Scripts/Audio/SoundFXRef.cs
+ 0.1 kb	 0.0% Assets/Oculus/AudioManager/Scripts/Audio/SoundEmitter.cs
+ 0.1 kb	 0.0% Assets/Oculus/AudioManager/Scripts/Audio/AudioManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs
+ 0.1 kb	 0.0% Assets/Oculus/VoiceMod/Scripts/OVRVoiceMod.cs
+ 0.1 kb	 0.0% Assets/Oculus/VoiceMod/Scripts/Helpers/OVRMicInput.cs
+ 0.1 kb	 0.0% Assets/Oculus/VoiceMod/Scripts/Helpers/OVRMessenger.cs
+ 0.1 kb	 0.0% Assets/Oculus/Spatializer/scripts/ONSPVersion.cs
+ 0.1 kb	 0.0% Assets/Oculus/Spatializer/scripts/ONSPProfiler.cs
+ 0.1 kb	 0.0% Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Usage/Stereo180Video/Scripts/VectorUtil.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Usage/StartScene/Scripts/StartMenu.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/LaserPointer.cs
+ 0.1 kb	 0.0% Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/Hand.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/VoipInput.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/VoipDtxState.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/VoipBitrate.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/UserOrdering.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/TimeWindow.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/SendPolicy.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/LaunchType.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/IMicrophone.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/CAPI.cs
+ 0.1 kb	 0.0% Assets/Oculus/LipSync/Scripts/OVRLipSync.cs
+ 0.1 kb	 0.0% Assets/Oculus/LipSync/Scripts/Helpers/OVRTouchpad.cs
+ 0.1 kb	 0.0% Assets/Oculus/LipSync/Scenes/Scripts/EnableSwitch.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/OvrAvatar.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Scripts/GazeTarget.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/VoipManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RoomManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RemotePlayer.cs
+ 0.1 kb	 0.0% Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/P2PManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/ThirdParty/openvr_api.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/ThirdParty/SimpleJSON.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRRecord.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRRaycaster.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRProfiler.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRNetwork.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRModeParms.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRGridCube.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRGrabbable.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRDebugInfo.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/Util/OVRCursor.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRTracker.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRProfile.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRPlugin.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVROverlay.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRManager.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRHaptics.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRDisplay.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRCommon.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRCameraRig.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRBoundary.cs
+ 0.1 kb	 0.0% Assets/Oculus/AudioManager/Scripts/Audio/SoundFX.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/RoomType.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Platform.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Encoder.cs
+ 0.1 kb	 0.0% Assets/Oculus/Platform/Scripts/Decoder.cs
+ 0.1 kb	 0.0% Assets/Oculus/AudioManager/Scripts/Utils/FastList.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRLint.cs
+ 0.1 kb	 0.0% Assets/Oculus/VR/Scripts/OVRInput.cs
+ 0.1 kb	 0.0% Assets/Scripts/Ball.cs
+ 0.1 kb	 0.0% Assets/Resources/OvrAvatarSettings.asset
+ 0.0 kb	 0.0% Assets/Oculus/Avatar/Resources/Materials/AvatarMaterialStateShader.cginc
+ 0.0 kb	 0.0% Assets/Oculus/Platform/Samples/VrHoops/Bouncey.physicMaterial
+ 0.0 kb	 0.0% Assets/Oculus/VR/Resources/OVRMRChromaKey.cginc
+-------------------------------------------------------------------------------
+Unloading 90 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.0 MB.
+System memory in use after: 142.8 MB.
+
+Unloading 96 unused Assets to reduce memory usage. Loaded Objects now: 1425.
+Total: 37.601684 ms (FindLiveObjects: 1.412739 ms CreateObjectMapping: 0.217709 ms MarkObjects: 31.511663 ms  DeleteObjects: 4.454103 ms)
+
+DisplayProgressNotification: Build Successful
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.113778 ms 
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+[00:00:00] Enlighten: LightingDataAsset took 11.232850 seconds. Cancelled, so not done yet.
+System memory in use before: 140.7 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 1416.
+Total: 21.204212 ms (FindLiveObjects: 0.413173 ms CreateObjectMapping: 0.037926 ms MarkObjects: 20.741808 ms  DeleteObjects: 0.010211 ms)
+
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+- Starting compile Library/ScriptAssemblies/Oculus.VR.dll
+- Starting compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+- Starting compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Symbols will be read from Temp\Unity.Analytics.DataPrivacy.pdb
+Script Module: Unity.Analytics.DataPrivacy.dll
+Pass: 0 took 90 milliseconds
+Pass: 1 took 0 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbols will be read from Temp\Unity.TextMeshPro.pdb
+Script Module: Unity.TextMeshPro.dll
+Pass: 0 took 155 milliseconds
+Pass: 1 took 17 milliseconds
+- Starting compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+- Finished compile Library/ScriptAssemblies/Oculus.VR.dll
+Symbols will be read from Temp\Oculus.VR.pdb
+Script Module: Oculus.VR.dll
+Pass: 0 took 118 milliseconds
+Pass: 1 took 13 milliseconds
+- Starting compile Library/ScriptAssemblies/Oculus.VR.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+- Finished compile Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+- Finished compile Library/ScriptAssemblies/Oculus.VR.Editor.dll
+- Starting compile Library/ScriptAssemblies/Oculus.VR.Scripts.Editor.dll
+- Finished compile Library/ScriptAssemblies/Oculus.VR.Scripts.Editor.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp\Assembly-CSharp.pdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 110 milliseconds
+Pass: 1 took 38 milliseconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs(33,15): warning CS0649: Field 'DistanceGrabber.m_spherecastRadius' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs Line: 33)
+
+Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs(36,37): warning CS0649: Field 'Hand.m_controller' is never assigned to, and will always have its default value 
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs Line: 36)
+
+Assets\Oculus\SampleFramework\Usage\DistanceGrab\Scripts\DistanceGrabberSample.cs(51,27): warning CS0649: Field 'DistanceGrabberSample.m_grabbers' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Usage\DistanceGrab\Scripts\DistanceGrabberSample.cs Line: 51)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs(73,20): warning CS0649: Field 'DistanceGrabber.m_player' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs Line: 73)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(39,25): warning CS0649: Field 'DebugUIBuilder.dividerPrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 39)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(59,28): warning CS0649: Field 'DebugUIBuilder.toDisable' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 59)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(43,25): warning CS0649: Field 'DebugUIBuilder.radioPrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 43)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(37,25): warning CS0649: Field 'DebugUIBuilder.sliderPrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 37)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs(70,13): warning CS0649: Field 'DistanceGrabber.m_obstructionLayer' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs Line: 70)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs(24,20): warning CS0649: Field 'GrabbableCrosshair.m_targetedCrosshair' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs Line: 24)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(49,23): warning CS0649: Field 'DebugUIBuilder.targetContentPanels' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 49)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(57,28): warning CS0649: Field 'DebugUIBuilder.toEnable' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 57)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs(26,20): warning CS0649: Field 'GrabbableCrosshair.m_enabledCrosshair' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabbableCrosshair.cs Line: 26)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(41,25): warning CS0649: Field 'DebugUIBuilder.togglePrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 41)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(33,25): warning CS0649: Field 'DebugUIBuilder.buttonPrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 33)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(46,22): warning CS0649: Field 'DebugUIBuilder.uiHelpersToInstantiate' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 46)
+
+Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs(35,25): warning CS0649: Field 'DebugUIBuilder.labelPrefab' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs Line: 35)
+
+Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs(40,26): warning CS0649: Field 'Hand.m_defaultGrabPose' is never assigned to, and will always have its default value null
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\Hand.cs Line: 40)
+
+Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs(68,13): warning CS0649: Field 'DistanceGrabber.m_grabObjectsInLayer' is never assigned to, and will always have its default value 0
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabber.cs Line: 68)
+
+Assets\Oculus\SampleFramework\Core\TouchControllers\TouchController.cs(14,37): warning CS0649: Field 'TouchController.m_controller' is never assigned to, and will always have its default value 
+ 
+(Filename: Assets\Oculus\SampleFramework\Core\TouchControllers\TouchController.cs Line: 14)
+
+Assets\Oculus\Platform\Editor\OculusPlatformSettingsEditor.cs(16,13): warning CS0618: 'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'
+ 
+(Filename: Assets\Oculus\Platform\Editor\OculusPlatformSettingsEditor.cs Line: 16)
+
+Assets\Oculus\Platform\Editor\OculusPlatformSettingsEditor.cs(133,43): warning CS0618: 'WWW' is obsolete: 'Use UnityWebRequest, a fully featured replacement which is more efficient and has additional features'
+ 
+(Filename: Assets\Oculus\Platform\Editor\OculusPlatformSettingsEditor.cs Line: 133)
+
+Assets\Oculus\Spatializer\editor\ONSPPropagationSerializationManager.cs(42,9): warning CS0618: 'EditorApplication.playmodeStateChanged' is obsolete: 'Use EditorApplication.playModeStateChanged and/or EditorApplication.pauseStateChanged'
+ 
+(Filename: Assets\Oculus\Spatializer\editor\ONSPPropagationSerializationManager.cs Line: 42)
+
+[UnityConnectServicesConfig] config is NOT valid, switching to default
