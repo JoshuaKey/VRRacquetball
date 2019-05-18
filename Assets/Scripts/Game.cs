@@ -53,6 +53,6 @@ public class Game : MonoBehaviour {
 
     private void OnGUI() {
         GUI.Label(new Rect(10, 10, 100, 20), "Score: " + score);
-        GUI.Label(new Rect(10, 10, 100, 20), "Bounce: " + bounces);
+        GUI.Label(new Rect(10, 30, 100, 20), "Bounce: " + bounces);
     }
 }
