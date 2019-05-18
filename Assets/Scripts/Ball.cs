@@ -8,10 +8,8 @@ public class Ball : MonoBehaviour {
     public new Rigidbody rigidbody;
     public new Collider collider;
 
-    // Start is called before the first frame update
-    void Start() {
-        
+    private void OnCollisionEnter() {
+        rigidbody.constraints = RigidbodyConstraints.None;
     }
-
 
 }
