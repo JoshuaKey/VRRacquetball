@@ -383,8 +383,9 @@ public class OVRCameraRig : MonoBehaviour
 
 		OVRPose headPose;
 
-		headPose.position = InputTracking.GetLocalPosition(Node.Head);
-		headPose.orientation = InputTracking.GetLocalRotation(Node.Head);
+        //headPose.position = InputTracking.GetLocalPosition(Node.Head);
+        headPose.position = this.transform.position;
+        headPose.orientation = InputTracking.GetLocalRotation(Node.Head);
 
 		OVRPose invHeadPose = headPose.Inverse();
 		Matrix4x4 invHeadMatrix = Matrix4x4.TRS(invHeadPose.position, invHeadPose.orientation, Vector3.one);
