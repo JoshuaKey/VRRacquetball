@@ -25,6 +25,8 @@ public class Game : MonoBehaviour {
 
     public static Game Instance;
 
+    private string latestDebug;
+
     private void Awake() {
         if(Instance != null) { Destroy(this.gameObject); return; }
         Instance = this;
@@ -33,6 +35,7 @@ public class Game : MonoBehaviour {
     private void Start() {
         ballStartPosition = ball.transform.position;
         playerStartPosition = player.transform.position;
+        latestDebug = $"Player position set to {player.transform.position}";
     }
 
     private void Update() {
@@ -62,6 +65,7 @@ public class Game : MonoBehaviour {
         text += "\nTrack: " + trackingSpace.transform.position + " " + trackingSpace.transform.rotation;
         text += "\nEye: " + centerEye.transform.position + " " + centerEye.transform.rotation;
         text += "\nAnchor: " + trackingAnchor.transform.position + " " + trackingAnchor.transform.rotation;
+        if(latestDebug != string.Empty && latestDebug != null) text += "\nDebug: " + latestDebug;
         Text.text = text;
     }
 
