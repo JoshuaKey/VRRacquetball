@@ -1,9 +1,27 @@
-﻿using System.Collections;
+﻿//using Amazon;
+//using Amazon.CognitoIdentity;
+//using Amazon.Lambda;
+using Amazon;
+using Amazon.CognitoIdentity;
+using Amazon.Lambda;
+using Amazon.Lambda.Model;
+using Amazon.SecurityToken.Model;
+using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Text;
+using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 
 public class Game : MonoBehaviour {
+
+    public class User {
+        public string ID;
+        public string UserName;
+        public string PasswordHash;
+        public int Score;
+    }
 
     [Header("Values")]
     public Vector3 ballStartPosition;
@@ -25,9 +43,21 @@ public class Game : MonoBehaviour {
 
     public static Game Instance;
 
+    private CognitoAWSCredentials credentials;
+    private AmazonLambdaClient lambda;
+    private User user;
+
     private void Awake() {
         if(Instance != null) { Destroy(this.gameObject); return; }
         Instance = this;
+
+        UnityInitializer.AttachToGameObject(this.gameObject);
+        Amazon.AWSConfigs.HttpClient = Amazon.AWSConfigs.HttpClientOption.UnityWebRequest;
+
+
+        credentials = new CognitoAWSCredentials("us-east-2:7127d020-055c-4436-88cc-5d62a2156f81", RegionEndpoint.USEast2);
+        lambda = new AmazonLambdaClient(credentials, RegionEndpoint.USEast2);
+        //lambda.inv
     }
 
     private void Start() {
@@ -71,6 +101,63 @@ public class Game : MonoBehaviour {
         ball.Reset();
         score = 0;
         bounces = 0;
+    }
+
+    //public User Login(string username, string password) {
+    //    var request = new InvokeRequest() {
+    //        FunctionName = "existing-systems-dynamodb-lambda-dev-signInUser",
+    //        Payload = "{\"username\": \"" + username + "\", \"password\": \"" + password + "\"}",
+    //        InvocationType = InvocationType.RequestResponse
+    //    };
+    //    lambda.InvokeAsync(request, (result) => {
+    //        if (result.Exception == null) {
+    //            string json = Encoding.ASCII.GetString(result.Response.Payload.ToArray());
+    //            Debug.Log(json);
+    //            user = JsonUtility.FromJson<User>(json);
+    //        } else {
+    //            Debug.LogError(result.Exception);
+    //        }
+    //    });
+    //}
+
+    //public async TaskCompletionSource<User> Register(string username, string password) {
+    //    var promise = new TaskCompletionSource<User>();
+        
+
+    //    var request = new InvokeRequest() {
+    //        FunctionName = "existing-systems-dynamodb-lambda-dev-createUser",
+    //        Payload = "{\"username\": \"" + username + "\", \"password\": \"" + password + "\"}",
+    //        InvocationType = InvocationType.RequestResponse
+    //    };
+    //    lambda.InvokeAsync(request, (result) => {
+    //        if (result.Exception == null) {
+    //            string json = Encoding.ASCII.GetString(result.Response.Payload.ToArray());
+    //            Debug.Log(json);
+    //            user = JsonUtility.FromJson<User>(json);
+    //            promise.TrySetResult(user);
+    //        } else {
+    //            Debug.LogError(result.Exception);
+    //        }
+    //    });
+
+
+
+    //    //FuncToCall func = new FuncToCall(Console.WriteLine);
+    //    //func.BeginInvoke(s, new AsyncCallback(WriteLineCallback), func);
+
+    //    //new AsyncCallback(RegisterAsync);
+
+    //    //Amazon.Lambda
+    //}
+
+    //delegate void FuncToCall(string s);
+
+    //private void RegisterAsync(IAsyncResult res) {
+    //    res
+    //}
+
+    public void UpdateScore(string id, int score) {
+
     }
 
     public void WallBounce() {
