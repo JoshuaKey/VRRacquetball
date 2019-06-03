@@ -1,9 +1,24 @@
-﻿using System.Collections;
+﻿using Amazon;
+using Amazon.CognitoIdentity;
+using Amazon.Lambda;
+using Amazon.Lambda.Model;
+using Amazon.SecurityToken.Model;
+using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Text;
+using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 
 public class Game : MonoBehaviour {
+
+    public class User {
+        public string ID;
+        public string UserName;
+        public string PasswordHash;
+        public int Score;
+    }
 
     [Header("Values")]
     public Vector3 ballStartPosition;
@@ -26,6 +41,8 @@ public class Game : MonoBehaviour {
 
     public static Game Instance;
 
+    private string latestDebug;
+
     private void Awake() {
         if(Instance != null) { Destroy(this.gameObject); return; }
         Instance = this;
@@ -34,6 +51,7 @@ public class Game : MonoBehaviour {
     private void Start() {
         ballStartPosition = ball.transform.position;
         playerStartPosition = player.transform.position;
+        latestDebug = $"Player position set to {player.transform.position}";
     }
 
     private void Update() {
@@ -63,17 +81,43 @@ public class Game : MonoBehaviour {
         text += "\nTrack: " + trackingSpace.transform.position + " " + trackingSpace.transform.rotation;
         text += "\nEye: " + centerEye.transform.position + " " + centerEye.transform.rotation;
         text += "\nAnchor: " + trackingAnchor.transform.position + " " + trackingAnchor.transform.rotation;
+        if(latestDebug != string.Empty && latestDebug != null) text += "\nDebug: " + latestDebug;
         Text.text = text;
 
         scoreText.text = "Score: " + score;
     }
 
     private void Reset() {
+        if (score >= GameData.user.Score) {
+            UpdateScore(score);
+        }
+
         ball.transform.position = ballStartPosition;
         player.transform.position = playerStartPosition;
         ball.Reset();
         score = 0;
         bounces = 0;
+    }
+
+    public void UpdateScore(int score) {
+        var request = new InvokeRequest() {
+            FunctionName = "existing-systems-dynamodb-lambda-dev-updateScore",
+            Payload = "{\"id\": \"" + GameData.user.ID + "\", \"score\": \"" + score + "\"}",
+            InvocationType = InvocationType.RequestResponse
+        };
+        GameData.lambda.InvokeAsync(request, (result) => {
+            if (result.Exception == null) {
+                string json = Encoding.ASCII.GetString(result.Response.Payload.ToArray());
+
+                Debug.Log(json);
+
+                Game.User user = JsonUtility.FromJson<Game.User>(json);
+
+                //callback(user);
+            } else {
+                Debug.LogError(result.Exception);
+            }
+        });
     }
 
     public void WallBounce() {
