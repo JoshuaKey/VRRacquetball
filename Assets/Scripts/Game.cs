@@ -1,7 +1,4 @@
-﻿//using Amazon;
-//using Amazon.CognitoIdentity;
-//using Amazon.Lambda;
-using Amazon;
+﻿using Amazon;
 using Amazon.CognitoIdentity;
 using Amazon.Lambda;
 using Amazon.Lambda.Model;
@@ -43,26 +40,17 @@ public class Game : MonoBehaviour {
 
     public static Game Instance;
 
-    private CognitoAWSCredentials credentials;
-    private AmazonLambdaClient lambda;
-    private User user;
+    private string latestDebug;
 
     private void Awake() {
         if(Instance != null) { Destroy(this.gameObject); return; }
         Instance = this;
-
-        UnityInitializer.AttachToGameObject(this.gameObject);
-        Amazon.AWSConfigs.HttpClient = Amazon.AWSConfigs.HttpClientOption.UnityWebRequest;
-
-
-        credentials = new CognitoAWSCredentials("us-east-2:7127d020-055c-4436-88cc-5d62a2156f81", RegionEndpoint.USEast2);
-        lambda = new AmazonLambdaClient(credentials, RegionEndpoint.USEast2);
-        //lambda.inv
     }
 
     private void Start() {
         ballStartPosition = ball.transform.position;
         playerStartPosition = player.transform.position;
+        latestDebug = $"Player position set to {player.transform.position}";
     }
 
     private void Update() {
@@ -92,10 +80,15 @@ public class Game : MonoBehaviour {
         text += "\nTrack: " + trackingSpace.transform.position + " " + trackingSpace.transform.rotation;
         text += "\nEye: " + centerEye.transform.position + " " + centerEye.transform.rotation;
         text += "\nAnchor: " + trackingAnchor.transform.position + " " + trackingAnchor.transform.rotation;
+        if(latestDebug != string.Empty && latestDebug != null) text += "\nDebug: " + latestDebug;
         Text.text = text;
     }
 
     private void Reset() {
+        if (score >= GameData.user.Score) {
+            UpdateScore(score);
+        }
+
         ball.transform.position = ballStartPosition;
         player.transform.position = playerStartPosition;
         ball.Reset();
@@ -103,61 +96,25 @@ public class Game : MonoBehaviour {
         bounces = 0;
     }
 
-    //public User Login(string username, string password) {
-    //    var request = new InvokeRequest() {
-    //        FunctionName = "existing-systems-dynamodb-lambda-dev-signInUser",
-    //        Payload = "{\"username\": \"" + username + "\", \"password\": \"" + password + "\"}",
-    //        InvocationType = InvocationType.RequestResponse
-    //    };
-    //    lambda.InvokeAsync(request, (result) => {
-    //        if (result.Exception == null) {
-    //            string json = Encoding.ASCII.GetString(result.Response.Payload.ToArray());
-    //            Debug.Log(json);
-    //            user = JsonUtility.FromJson<User>(json);
-    //        } else {
-    //            Debug.LogError(result.Exception);
-    //        }
-    //    });
-    //}
+    public void UpdateScore(int score) {
+        var request = new InvokeRequest() {
+            FunctionName = "existing-systems-dynamodb-lambda-dev-updateScore",
+            Payload = "{\"id\": \"" + GameData.user.ID + "\", \"score\": \"" + score + "\"}",
+            InvocationType = InvocationType.RequestResponse
+        };
+        GameData.lambda.InvokeAsync(request, (result) => {
+            if (result.Exception == null) {
+                string json = Encoding.ASCII.GetString(result.Response.Payload.ToArray());
 
-    //public async TaskCompletionSource<User> Register(string username, string password) {
-    //    var promise = new TaskCompletionSource<User>();
-        
+                Debug.Log(json);
 
-    //    var request = new InvokeRequest() {
-    //        FunctionName = "existing-systems-dynamodb-lambda-dev-createUser",
-    //        Payload = "{\"username\": \"" + username + "\", \"password\": \"" + password + "\"}",
-    //        InvocationType = InvocationType.RequestResponse
-    //    };
-    //    lambda.InvokeAsync(request, (result) => {
-    //        if (result.Exception == null) {
-    //            string json = Encoding.ASCII.GetString(result.Response.Payload.ToArray());
-    //            Debug.Log(json);
-    //            user = JsonUtility.FromJson<User>(json);
-    //            promise.TrySetResult(user);
-    //        } else {
-    //            Debug.LogError(result.Exception);
-    //        }
-    //    });
+                Game.User user = JsonUtility.FromJson<Game.User>(json);
 
-
-
-    //    //FuncToCall func = new FuncToCall(Console.WriteLine);
-    //    //func.BeginInvoke(s, new AsyncCallback(WriteLineCallback), func);
-
-    //    //new AsyncCallback(RegisterAsync);
-
-    //    //Amazon.Lambda
-    //}
-
-    //delegate void FuncToCall(string s);
-
-    //private void RegisterAsync(IAsyncResult res) {
-    //    res
-    //}
-
-    public void UpdateScore(string id, int score) {
-
+                //callback(user);
+            } else {
+                Debug.LogError(result.Exception);
+            }
+        });
     }
 
     public void WallBounce() {

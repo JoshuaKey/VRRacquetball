@@ -24,6 +24,7 @@ public class Ball : MonoBehaviour {
         hasServed = false;
     }
 
+    [ContextMenu("Serve")]
     public void Serve() {
         if (!hasServed) {
             hasServed = true;
