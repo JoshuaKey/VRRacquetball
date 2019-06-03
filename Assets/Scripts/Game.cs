@@ -19,6 +19,7 @@ public class Game : MonoBehaviour {
     public GameObject trackingAnchor;
     public Canvas debugCanvas;
     public TextMeshProUGUI Text;
+    public TextMeshProUGUI scoreText;
 
     [SerializeField] private int score;
     [SerializeField] private int bounces;
@@ -63,6 +64,8 @@ public class Game : MonoBehaviour {
         text += "\nEye: " + centerEye.transform.position + " " + centerEye.transform.rotation;
         text += "\nAnchor: " + trackingAnchor.transform.position + " " + trackingAnchor.transform.rotation;
         Text.text = text;
+
+        scoreText.text = "Score: " + score;
     }
 
     private void Reset() {
