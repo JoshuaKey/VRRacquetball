@@ -22,69 +22,60 @@ public class UI : MonoBehaviour {
         GameData.credentials = new CognitoAWSCredentials("us-east-2:7127d020-055c-4436-88cc-5d62a2156f81", RegionEndpoint.USEast2);
         GameData.lambda = new AmazonLambdaClient(GameData.credentials, RegionEndpoint.USEast2);
 
-        if (ToRegister) {
-            Register(Username, Password, (x) => {
-                GameData.user = x;
-                print("Registered");
-                //print(x.ID);
-                //print(x.UserName);
-                //print(x.PasswordHash);
-                //print(x.Score);
-                //SceneManager.LoadScene("GearVRControllerTest");
-            });
-        } else {
-            Login(Username, Password, (x) => {
-                GameData.user = x;
-                print("Log in");
-                //print(x.ID);
-                //print(x.UserName);
-                //print(x.PasswordHash);
-                //print(x.Score);
-                //SceneManager.LoadScene("GearVRControllerTest");
-            });
-        }
-        
+        if (!string.IsNullOrEmpty(Username) && !string.IsNullOrEmpty(Password)) {
+            if (ToRegister) {
+                Register(Username, Password, (json) => {
+                    Game.User user = JsonUtility.FromJson<Game.User>(json);
+                    GameData.user = user;
+                    if (user != null) {
+                        print("Registered");
+                        SceneManager.LoadScene("GearVrControllerTest");
+                    } else {
+                        print("Failed to Register");
+                    }
+                });
+            } else {
+                Login(Username, Password, (json) => {
+                    Game.User user = JsonUtility.FromJson<Game.User>(json);
+                    GameData.user = user;
+                    if (user != null) {
+                        print("log in");
+                        SceneManager.LoadScene("GearVrControllerTest");
+                    } else {
+                        print("Failed to Log in");
+                    }
+                });
+            }
+        }   
     }
 
-    public void Login(string username, string password, Action<Game.User> callback) {
+    public void Login(string username, string password, Action<string> callback) {
         var request = new InvokeRequest() {
             FunctionName = "existing-systems-dynamodb-lambda-dev-signInUser",
             Payload = "{\"username\": \"" + username + "\", \"password\": \"" + password + "\"}",
             InvocationType = InvocationType.RequestResponse
         };
         GameData.lambda.InvokeAsync(request, (result) => {
-            if (result.Exception == null) {
-                string json = Encoding.ASCII.GetString(result.Response.Payload.ToArray());
-
-                Debug.Log(json);
-
-                Game.User user = JsonUtility.FromJson<Game.User>(json);
-
-                callback(user);
-            } else {
+            if (result.Exception != null) {
                 Debug.LogError(result.Exception);
             }
+            string json = Encoding.ASCII.GetString(result.Response.Payload.ToArray());
+            callback(json);
         });
     }
 
-    public void Register(string username, string password, Action<Game.User> callback) {
+    public void Register(string username, string password, Action<string> callback) {
         var request = new InvokeRequest() {
             FunctionName = "existing-systems-dynamodb-lambda-dev-createUser",
             Payload = "{\"username\": \"" + username + "\", \"password\": \"" + password + "\"}",
             InvocationType = InvocationType.RequestResponse
         };
         GameData.lambda.InvokeAsync(request, (result) => {
-            if (result.Exception == null) {
-                string json = Encoding.ASCII.GetString(result.Response.Payload.ToArray());
-
-                Debug.Log(json);
-
-                Game.User user = JsonUtility.FromJson<Game.User>(json);
-
-                callback(user);
-            } else {
+            if (result.Exception != null) {
                 Debug.LogError(result.Exception);
             }
+            string json = Encoding.ASCII.GetString(result.Response.Payload.ToArray());
+            callback(json);
         });
     }
 }
