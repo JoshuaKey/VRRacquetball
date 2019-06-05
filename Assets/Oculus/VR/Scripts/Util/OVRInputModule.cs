@@ -600,6 +600,9 @@ namespace UnityEngine.EventSystems
             leftData.Reset();
 
             //Now set the world space ray. This ray is what the user uses to point at UI elements
+            if(rayTransform != null)
+            {
+
             leftData.worldSpaceRay = new Ray(rayTransform.position, rayTransform.forward);
             leftData.scrollDelta = GetExtraScrollDelta();
 
@@ -674,6 +677,7 @@ namespace UnityEngine.EventSystems
             m_MouseState.SetButtonState(PointerEventData.InputButton.Left, GetGazeButtonState(), leftData);
             m_MouseState.SetButtonState(PointerEventData.InputButton.Right, PointerEventData.FramePressState.NotChanged, rightData);
             m_MouseState.SetButtonState(PointerEventData.InputButton.Middle, PointerEventData.FramePressState.NotChanged, middleData);
+            }
             return m_MouseState;
         }
 

@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 6da39c81d08c301408c85c9ef0831b75
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GearVrControllerTest.unity
     guid: d56af3aeb2176e7459f753c1c2e2dd97
+  - enabled: 0
+    path: Assets/Tales From The Rift/CanvasKeyboard/Demo/Demo Canvas Keyboard.unity
+    guid: d8976f3f9ee2b0746864eb97de06ef22
   m_configObjects: {}
